@@ -1,15 +1,14 @@
 var ExonswapV2Factory = artifacts.require("./ExonswapV2Factory.sol")
 var WTRX = artifacts.require('./WTRX.sol')
-var ExonCenterTRC721 = artifacts.require("./ExonCenterTRC721.sol")
 var ExonswapV2PairRouter = artifacts.require("./ExonswapV2PairRouter.sol")
 var ExonswapV2LiquidityRouter = artifacts.require("./ExonswapV2LiquidityRouter.sol")
 var ExonswapV2SwapRouter = artifacts.require("./ExonswapV2SwapRouter.sol")
 
 // //deploy test tokens
-var USDT = artifacts.require("./USDT.sol")
-var ExonToken = artifacts.require("./test/ExonToken.sol")
-var BTC = artifacts.require("./test/BTC.sol")
-var USDC = artifacts.require("./test/USDC.sol")
+// var USDT = artifacts.require("./USDT.sol")
+// var ExonToken = artifacts.require("./test/ExonToken.sol")
+// var BTC = artifacts.require("./test/BTC.sol")
+// var USDC = artifacts.require("./test/USDC.sol")
 
 
 module.exports =   function(deployer,network,account) {
